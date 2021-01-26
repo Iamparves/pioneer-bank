@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#login-area {
+    padding: 100px 0;
+}
+
+.submit-area {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
