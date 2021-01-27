@@ -8,7 +8,38 @@
     padding: 100px 0;
 }
 
+#transaction-area {
+    padding: 100px 0;
+    display: none;
+}
+
 .submit-area {
     border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+    box-shadow: 0 0px 30px -5px rgba(0, 0, 0, .1);
+}
+
+.status {
+    padding: 25px 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: slateblue;
+}
+
+.status h5 {
+    margin-bottom: 10px;
+}
+
+.status h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.withdraw {
+    background: lightsalmon;
+}
+
+.balance {
+    background: orange;
 }

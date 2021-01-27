@@ -19,9 +19,53 @@
                 <h4 class="mb-4">Login</h4>
                 <input type="email" class="form-control mb-3" placeholder="Email">
                 <input type="password" class="form-control mb-3" placeholder="password">
-                <button class="btn btn-success">Login</button>
+                <button id="login" class="btn btn-success">Login</button>
             </div>
         </div>
+    </div>
+    <div id="transaction-area">
+        <div class="container">
+            <h1 class="text-center mb-5">Transaction Dashboard</h1>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <div class="status deposit text-center text-md-start">
+                        <h5>Deposit</h5>
+                        <h2>$<span id="currentDeposit">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="status withdraw text-center text-md-start">
+                        <h5>Withdraw</h5>
+                        <h2>$<span id="currentWithdraw">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="status balance text-center text-md-start">
+                        <h5>Balance</h5>
+                        <h2>$<span id="currentBalance">1200</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="submit-area p-5">
+                        <h4 class="mb-4">Deposit</h4>
+                        <input id="depositAmount" type="number" class="form-control mb-3"
+                            placeholder="$ Amount you want to deposit">
+                        <button id="deposit" class="btn btn-success">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="submit-area p-5">
+                        <h4 class="mb-4">Withdraw</h4>
+                        <input id="withdrawAmount" type="number" class="form-control mb-3"
+                            placeholder="$ Amount you want to withdraw">
+                        <button id="withdraw" class="btn btn-success">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <!-- Bootstrap Bundle JS -->
